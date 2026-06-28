@@ -1,0 +1,434 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "multi-properties",
+        "version": "1.0.0",
+        "title": "Multi Properties",
+        "description": "Multi Properties Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.4.2",
+        "author": "ydp"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "nodeValue",
+                    "source": "How to alter props that already exist on notes. ",
+                    "target": "修改笔记已有属性"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Add props to file.",
+                    "target": "为文件添加属性"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Add props to folder.",
+                    "target": "为文件夹添加属性"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Remove props from file.",
+                    "target": "从文件移除属性"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Remove props from folder.",
+                    "target": "从文件夹移除属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ignore",
+                    "target": "忽略"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Ignore prop",
+                    "target": "忽略属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "append",
+                    "target": "追加"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Append to prop",
+                    "target": "追加到属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "overwrite",
+                    "target": "覆盖"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Overwrite prop",
+                    "target": "覆盖属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Determine what to do when a property with the same name already exists in a file.  Note that incompatible types cannot be appended.(adding a number to a date)",
+                    "target": "确定当文件中存在同名属性时的处理方式。注意：不兼容的类型无法追加（如数字与日期）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When toggled on, while looping through all files in a folder, you will also loop through any sub-folders.",
+                    "target": "启用后，遍历文件夹中所有文件时，也会遍历所有子文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set delimiter to use when creating a list.  Commas(,) are used by default.",
+                    "target": "设置创建列表时使用的分隔符。默认使用逗号(,)。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select a file with properties that you want to load into the Multi Properties form by default.  Type in the full path of the desired file.(ex. Templates/PropFile 1)",
+                    "target": "选择要默认加载到多属性表单中的属性文件。输入所需文件的完整路径（例如：Templates/PropFile 1）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "How to alter existing properties.",
+                    "target": "如何修改现有属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Recursive Iteration",
+                    "target": "递归遍历"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "List Delimiter",
+                    "target": "列表分隔符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default Props File",
+                    "target": "默认属性文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add props from all tabs",
+                    "target": "添加所有标签页的属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Remove props from all tabs",
+                    "target": "移除所有标签页的属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add props to selected files",
+                    "target": "为选中文件添加属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Remove props from selected files",
+                    "target": "移除选中文件的属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add props to search results",
+                    "target": "为搜索结果添加属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Remove props from search results",
+                    "target": "移除搜索结果的属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] lifecycle_double_unmount\n%cTried to unmount a component that was not mounted\nhttps://svelte.dev/e/lifecycle_double_unmount",
+                    "target": "%c[svelte] lifecycle_double_unmount\n%c尝试卸载未挂载的组件\nhttps://svelte.dev/e/lifecycle_double_unmount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] select_multiple_invalid_value\n%cThe \\`value\\` property of a \\`<select multiple>\\` element should be an array, but it received a non-array value. The selection will be kept as is.\nhttps://svelte.dev/e/select_multiple_invalid_value",
+                    "target": "%c[svelte] select_multiple_invalid_value\n%c`<select multiple>`元素的`value`属性应为数组，但收到了非数组值。选择将保持不变。\nhttps://svelte.dev/e/select_multiple_invalid_value"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] state_proxy_unmount\n%cTried to unmount a state proxy, rather than a component\nhttps://svelte.dev/e/state_proxy_unmount",
+                    "target": "%c[svelte] state_proxy_unmount\n%c尝试卸载状态代理而非组件\nhttps://svelte.dev/e/state_proxy_unmount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] svelte_boundary_reset_noop\n%cA \\`<svelte:boundary>\\` \\`reset\\` function only resets the boundary the first time it is called\nhttps://svelte.dev/e/svelte_boundary_reset_noop",
+                    "target": "%c[svelte] svelte_boundary_reset_noop\n%c`<svelte:boundary>`的`reset`函数仅在首次调用时重置边界\nhttps://svelte.dev/e/svelte_boundary_reset_noop"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to hydrate: ",
+                    "target": "水合失败："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Delimiter must be a single character.",
+                    "target": "分隔符必须为单个字符。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please check at least one property to remove.",
+                    "target": "请至少勾选一个要移除的属性。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No properties to remove",
+                    "target": "无属性可移除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file to add properties to.",
+                    "target": "无活动文件可添加属性。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file to remove properties from.",
+                    "target": "无活动文件可移除属性。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No open tabs in the active tab group to add properties to.",
+                    "target": "活动标签组中无打开的标签可添加属性。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No open tabs in the active tab group to remove properties from.",
+                    "target": "活动标签组中无打开的标签可移除属性。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No files to add properties to.",
+                    "target": "无文件可添加属性。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No files to remove properties from.",
+                    "target": "无文件可移除属性。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Not a valid Props template.",
+                    "target": "无效的 Props 模板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add props to current note",
+                    "target": "为当前笔记添加属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Remove props from current note",
+                    "target": "移除当前笔记属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add props to tabs in active tab group",
+                    "target": "为活动标签组添加属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Remove props from tabs in active tab group",
+                    "target": "移除活动标签组属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Text",
+                    "target": "文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add Properties",
+                    "target": "添加属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Remove Properties",
+                    "target": "移除属性"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"created at\")",
+                    "target": "error(\"created at\")"
+                },
+                {
+                    "source": "error(\"updated at\")",
+                    "target": "error(\"updated at\")"
+                },
+                {
+                    "source": "error(\"traced at\")",
+                    "target": "error(\"traced at\")"
+                },
+                {
+                    "source": "setName(\"How to alter existing properties.\")",
+                    "target": "setName(\"How to alter existing properties.\")"
+                },
+                {
+                    "source": "setDesc(\n      \"Determine what to do when a property with the same name already exists in a file.  Note that incompatible types cannot be appended.(adding a number to a date)\"\n    )",
+                    "target": "setDesc(\n      \"Determine what to do when a property with the same name already exists in a file.  Note that incompatible types cannot be appended.(adding a number to a date)\"\n    )"
+                },
+                {
+                    "source": "setName(\"Recursive Iteration\")",
+                    "target": "setName(\"Recursive Iteration\")"
+                },
+                {
+                    "source": "setDesc(\n      \"When toggled on, while looping through all files in a folder, you will also loop through any sub-folders.\"\n    )",
+                    "target": "setDesc(\n      \"When toggled on, while looping through all files in a folder, you will also loop through any sub-folders.\"\n    )"
+                },
+                {
+                    "source": "setName(\"List Delimiter\")",
+                    "target": "setName(\"List Delimiter\")"
+                },
+                {
+                    "source": "setDesc(\n      \"Set delimiter to use when creating a list.  Commas(,) are used by default.\"\n    )",
+                    "target": "setDesc(\n      \"Set delimiter to use when creating a list.  Commas(,) are used by default.\"\n    )"
+                },
+                {
+                    "source": "Notice(\"Delimiter must be a single character.\")",
+                    "target": "Notice(\"Delimiter must be a single character.\")"
+                },
+                {
+                    "source": "setName(\"Default Props File\")",
+                    "target": "setName(\"Default Props File\")"
+                },
+                {
+                    "source": "setDesc(\n      \"Select a file with properties that you want to load into the Multi Properties form by default.  Type in the full path of the desired file.(ex. Templates/PropFile 1)\"\n    )",
+                    "target": "setDesc(\n      \"Select a file with properties that you want to load into the Multi Properties form by default.  Type in the full path of the desired file.(ex. Templates/PropFile 1)\"\n    )"
+                },
+                {
+                    "source": "Notice(\"Please check at least one property to remove.\")",
+                    "target": "Notice(\"Please check at least one property to remove.\")"
+                },
+                {
+                    "source": "Notice(\"No properties to remove\")",
+                    "target": "Notice(\"No properties to remove\")"
+                },
+                {
+                    "source": "setTitle(\"Add props from all tabs\")",
+                    "target": "setTitle(\"Add props from all tabs\")"
+                },
+                {
+                    "source": "setTitle(\"Remove props from all tabs\")",
+                    "target": "setTitle(\"Remove props from all tabs\")"
+                },
+                {
+                    "source": "setTitle(\"Add props to selected files\")",
+                    "target": "setTitle(\"Add props to selected files\")"
+                },
+                {
+                    "source": "setTitle(\"Remove props from selected files\")",
+                    "target": "setTitle(\"Remove props from selected files\")"
+                },
+                {
+                    "source": "setTitle(\"Add props to search results\")",
+                    "target": "setTitle(\"Add props to search results\")"
+                },
+                {
+                    "source": "setTitle(\"Remove props from search results\")",
+                    "target": "setTitle(\"Remove props from search results\")"
+                },
+                {
+                    "source": "setText(\n        \"Added props to \" + count + \"/\" + totalFiles + \" files\"\n      )",
+                    "target": "setText(\n        \"Added props to \" + count + \"/\" + totalFiles + \" files\"\n      )"
+                },
+                {
+                    "source": "setText(\n        \"Removed props from \" + count + \"/\" + totalFiles + \" files\"\n      )",
+                    "target": "setText(\n        \"Removed props from \" + count + \"/\" + totalFiles + \" files\"\n      )"
+                },
+                {
+                    "source": "name = \"StaleReactionError\"",
+                    "target": "name = \"StaleReactionError\""
+                },
+                {
+                    "source": "name = \"Svelte error\"",
+                    "target": "name = \"Svelte error\""
+                },
+                {
+                    "source": "textContent = \"\"",
+                    "target": "textContent = \"\""
+                },
+                {
+                    "source": "text: \"Text\"",
+                    "target": "text: \"Text\""
+                },
+                {
+                    "source": "name: \"\"",
+                    "target": "name: \"\""
+                },
+                {
+                    "source": "text: \"Add Properties\"",
+                    "target": "text: \"Add Properties\""
+                },
+                {
+                    "source": "text: \"Remove Properties\"",
+                    "target": "text: \"Remove Properties\""
+                },
+                {
+                    "source": "name: \"Add props to current note\"",
+                    "target": "name: \"Add props to current note\""
+                },
+                {
+                    "source": "name: \"Remove props from current note\"",
+                    "target": "name: \"Remove props from current note\""
+                },
+                {
+                    "source": "name: \"Add props to tabs in active tab group\"",
+                    "target": "name: \"Add props to tabs in active tab group\""
+                },
+                {
+                    "source": "name: \"Remove props from tabs in active tab group\"",
+                    "target": "name: \"Remove props from tabs in active tab group\""
+                }
+            ]
+        }
+    }
+}
