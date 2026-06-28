@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "id": "2O4zELYBP5_XdhEr-tcfXJKvXL9VvUMu",
+        "plugin": "multi-properties",
+        "language": "zh-cn",
+        "version": "1.4.2",
+        "supported_versions": "1.4.2",
+        "title": "Multi Properties",
+        "description": "Multi Properties Localization & Tweaks",
+        "hash": "38634233386342333863423338634233",
+        "created_at": "2026-06-28T09:40:27.495Z",
+        "updated_at": "2026-06-28T09:40:27.495Z",
+        "type": "plugin"
+    }
+]
